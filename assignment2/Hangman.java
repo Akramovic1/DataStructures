@@ -30,7 +30,7 @@ public class Hangman implements IHangman {
 
                 br.close();
             } catch (Exception e) {
-                System.out.println("File Not Found!!");
+                System.out.println("File isn't here!");
             }
         }
         public void linesCounter (String fileName){
@@ -40,7 +40,7 @@ public class Hangman implements IHangman {
                     this.WAL++;
                 fileTraverser.close();
             } catch (Exception e) {
-                System.out.println("File not found!!");
+                System.out.println("File isn't here!!");
             }
         }
         @Override

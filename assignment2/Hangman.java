@@ -3,7 +3,7 @@
  *                                                                   *
  * This file is part of Data Structures I projects .                 *
  *                                                                   *
- * The code can not be copied and/or distributed without the express *
+ * This code can not be copied and/or distributed without the express *
  * permission of Ahmed Akram                                         *
  *********************************************************************/
 package eg.edu.alexu.csd.datastructure.hangman.cs18010056;

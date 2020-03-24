@@ -1,20 +1,17 @@
 package com.company;
 
 public class SimpleCalculator implements ISimpleCalc {
-    public static void main(String[] args) {}
 
-    @Override
-    public int addition(int a, int b) {
-        return a+b ;
-    }
-    @Override
-        public float division ( int c, int d) throws RuntimeException {
-            if (d == 0) {
-                throw new RuntimeException("ERROR! Division by ZERO is impossible");
-
-            } else {
-                return (float) (c / d);
-            }
-
-        }
-    }
+   @Override
+	public int add(final int x, final int y) {
+		return x + y;
+	}
+	@Override
+	public float divide(final int x, final int y) {
+		if (y == 0) {
+			throw new RuntimeException("Division by zero!");
+		} else {
+			return (float) x / y;
+		}
+	}
+}

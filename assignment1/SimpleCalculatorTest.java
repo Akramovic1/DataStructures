@@ -7,7 +7,7 @@ class SimpleCalculatorTest {
     SimpleCalculator calc = new SimpleCalculator();
 
     @Test
-    void addition() {
+    void add() {
         assertEquals(6,calc.addition(3,3));
         assertEquals(7,calc.addition(4,3));
         assertEquals(8,calc.addition(5,3));
@@ -18,7 +18,7 @@ class SimpleCalculatorTest {
         assertEquals(55,calc.addition(2,53));
     }
     @Test
-    void division() {
+    void divide() {
         assertEquals(5,calc.division(20,4));
         assertEquals(6 , calc.division(30,5));
         assertEquals(9 , calc.division(45,5));
